@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="David Jaramillo">
+    <meta name="description" content="Blog de música. Evaluación final Frameworks CSS">
+    <title>Blog de música</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    
+    <div class="container">
+        <!--header-->
+        <div class="row flex-parent">
+            <div class="col-lg-2 col-md-3 col-sm-12 text-center">
+                <img src="img/logo.png" alt="Blog de música" class="logo">
+            </div>
+            <div class="col-lg-3 col-lg-offset-7 col-md-4 col-md-offset-5 col-sm-12 text-center flex-child">
+                <div>
+                    <a href="#"><img class="img-circle" src="img/logo-facebook.png" alt="Facebook"></a>
+                    <a href="#"><img class="img-circle" src="img/logo-instagram.png" alt="Instagram"></a>
+                    <a href="#"><img class="img-circle" src="img/logo-youtube.png" alt="YouTube"></a>
+                    <a href="#"><img class="img-circle" src="img/logo-twitter.png" alt="Twitter"></a>
+                    <a href="#"><img class="img-circle" src="img/logo-snapchat.jpg" alt="Snapchat"></a>
+                </div>                
+            </div>
+        </div>
+
+        <!--Barra de navegación-->
+        <div class="row">
+           <nav class="navbar navbar-default col-sm-12" role="navigation">
+                <ul class="nav navbar-nav col-sm-12 padding-ul">
+                    <li class="col-sm-12 col-md-2 text-center"><a href="#">Inicio</a></li>
+                    <li class="col-sm-12 col-md-2 text-center"><a href="#">Artistas</a></li>
+                    <li class="col-sm-12 col-md-2 text-center"><a href="#">Grupos</a></li>
+                    <li class="col-sm-12 col-md-2 text-center"><a href="#">Top 10</a></li>
+                    <li class="col-sm-12 col-md-2 text-center"><a href="#">Letras</a></li>
+                    <li class="col-sm-12 col-md-2 text-center"><a href="#">Acordes</a></li>
+                </ul>
+           </nav>
+        </div>
+
+        <!--Contenido del Blog-->
+        <div class="row">
+           <!--Columna de contenido-->
+           <div class="col-sm-12 col-md-9">
+               <!--Articulo 1-->
+               <div class="row articulo">
+                   <div class="col-sm-12 col-md-8">
+                       <h2>Salsa Cubana</h2>
+                       <p>
+                           Este divertido ritmo nace a partir de la mezcla de la contradanza, el son, la guaracha,  el mambo  y ritmos afrocubanos. Sus primeros pasos fueron dados en el Casino Deportivo de La Habana y otros salones de baile de la capital cubana a finales de los años cincuenta.
+                           Estilo juguetón rítmico y animado, conformado por figuras, nudos y combinaciones que puede bailarse en pareja de manera social o de forma grupal en la divertida rueda de casino (formación circular de parejas donde una voz líder indica diferentes figuras).
+                        </p>
+                   </div>
+                   <div class="col-sm-12 col-md-4">
+                       <img src="img/salsa-cubana.jpg" alt="" class="img-thumbnail">
+                   </div>
+                   <div class="col-sm-12">
+                       <form class="form-group comentarios">
+                           <textarea class="form-control" placeholder="Comentarios..."></textarea>
+                       </form>
+                   </div>
+               </div>
+               <!--Articulo 2-->
+               <div class="row articulo">
+                   <div class="col-sm-12 col-md-8 col-md-push-4">
+                       <h2>Salsa en Línea</h2>
+                       <p>
+                           Denominada también Salsa Puertorriqueña, este elegante y perfecto estilo, nace en New York en los años 80. En este ritmo se llevan a cabo los pasos en una línea recta de ida y vuelta, caracterizado por su técnica estilizada e interpretación espectacular.
+                        </p>
+                   </div>
+                   <div class="col-sm-12 col-md-4 col-md-pull-8">
+                       <img src="img/salsa-linea.jpg" alt="" class="img-thumbnail">
+                   </div>
+                   <div class="col-sm-12">
+                       <form class="form-group comentarios">
+                           <textarea class="form-control" placeholder="Comentarios..."></textarea>
+                       </form>                       
+                   </div>
+               </div>
+           </div>
+
+           <!--Columna del buscador-->
+           <div class="hidden-xs hidden-sm col-md-3 seccionBuscar">
+               <div class="col-md-12">
+                   <form action="">
+                       <fieldset>
+                           <div class="form-group">
+                                <label for="buscador" class="label-class">Buscar <span class="glyphicon glyphicon-search"></span></label>                                
+                                <input type="text" name="buscador" id="buscador" class="form-control">       
+                           </div>
+                       </fieldset>
+                   </form>
+               </div>
+               <div class="col-md-12 busqueda">
+                    <ul class="list-group list-unstyled">
+                        <li class="list-group-item">Rumba</li>
+                        <li class="list-group-item">Son</li>
+                        <li class="list-group-item">Bailables</li>
+                        <li class="list-group-item">1999</li>
+                        <li class="list-group-item">Guaguancó</li>
+                        <li class="list-group-item">Flamenco</li>
+                        <li class="list-group-item">Alexander Abreu</li>
+                        <li class="list-group-item">Chan Chan</li>
+                        <li class="list-group-item">Havana D' Primera</li>
+                        <li class="list-group-item">Elio Revé</li>
+                    </ul>
+               </div>
+           </div>
+        </div>
+
+    </div>
+
+    
+</body>
+</html>

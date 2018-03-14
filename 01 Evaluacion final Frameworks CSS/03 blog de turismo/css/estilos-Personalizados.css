@@ -1,0 +1,6 @@
+body {
+    background: #81c784 url(../img/fondo.jpg) no-repeat bottom;
+    background-attachment: fixed;
+    background-position-y: 140px;
+    width: 100%;
+}

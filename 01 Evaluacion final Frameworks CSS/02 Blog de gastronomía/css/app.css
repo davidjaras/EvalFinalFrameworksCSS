@@ -1,0 +1,35 @@
+/****** Estilos de etiquetas *****/
+body {
+    background: url(../img/fondoppal.jpg) fixed;
+    background-size: 100%;
+}
+textarea {
+    margin-bottom: 0px;
+}
+
+div > p {
+    margin-left: 10px;
+}
+form .column {
+    padding-top: 15px;
+}
+
+/****** Estilos de Clases *****/
+.contenedor {
+    background-color: rgba(255, 255, 255, 0.85);
+    border-bottom: 1px solid gray;
+}
+.height-40 {
+    height: 40px !important;
+}
+.favoritos, .publicacion {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.publicacion {
+    padding-top: 20px;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    padding-bottom: 20px;
+}
+
